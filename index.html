@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="netflix_logo">
+                <img src="./Netflix-Logo.png" alt="This is the Netflix Logo" class="logo">
+            </div>
+            <div class="nav_items">
+                <div class="items">
+                    <div class="dropdown">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <select name="language" id="langSelect" class="langDropdown">
+                            <option value="english" selected>English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="items">
+                    <button class="signin_button">Sign In</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero_bg_img">
+                <img src="./netflixteaser.png" alt="Netflix background" class="hero_bg">
+            </div>
+            <div class="hero_bg_overlay"></div>
+            <div class="hero_card">
+                <h1 class="hero_title">
+                    Unlimited movies, TV shows and more
+                </h1>
+                <h2 class="hero_subtitle">
+                    Watch anywhere. Cancel anytime.
+                </h2>
+                <br>
+                <p class="hero_desc">
+                    <nobr>
+                        Ready to watch? Enter your email to create or restart your membership.
+                    </nobr>
+                    <br><br>
+                    <nobr>
+                        <input type="email" placeholder="Email Address" class="email">
+                        <button class="get_started">Get Started  ></button>
+                    </nobr>
+                </p>
+            </div>
+        </section>
+        <section class="style_cards">
+            <div class="card-1">
+                <div class="desc-1">
+                    <h1>Enjoy on your TV</h1>
+                    <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+                </div>
+                <img src="./tv.png" alt="Netflix TV">
+                <video class= "video-1" autoplay="" playsinline="" muted loop="" src="./video-tv.m4v" type="video/mp4"></video>
+            </div>
+            <div class="card-2">
+                <img src="./inner.jpg" alt="Netflix Mobile">
+                <div class="desc-2">
+                    <h1>Download your shows <br> to watch offline</h1>
+                    <h2>Save your favourites easily and always have something to watch.</h2>
+                </div>
+            </div>
+            <div class="card-3">
+                <div class="desc-3">
+                    <h1>Watch everywhere</h1>
+                    <h3>Stream unlimited movies and TV shows on your <br>phone, tablet, laptop, and TV.</h3>
+                </div>
+                <img src="./device-pile-in.png" alt="Device">
+                <video class= "video-2" autoplay="" playsinline="" muted loop="" src="./video-devices-in.m4v" type="video/mp4"></video>
+            </div>
+            <div class="card-4">
+                <img src="./AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png" alt="Netflix Cartoon">
+                <div class="desc-4">
+                    <h1>Create profiles for kids</h1>
+                    <h2>Send children on adventures with their favourite characters in a space made just for them—free with <br> your membership.</h2>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="box">
+                <span>What is Netflix?</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="box">
+                <span>How much does Netflix cost?</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="box">
+                <span>Where can I watch?</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="box">
+                <span>How do I cancel?</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="box">
+                <span>How can I watch on Netflix?</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="box">
+                <span>Is Netflix good for kids?</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 4V20M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p class="desc">
+                <nobr>
+                    Ready to watch? Enter your email to create or restart your membership.
+                </nobr> 
+                <br>
+                <nobr>
+                    <input type="email" placeholder="Email Address" class="d_email">
+                    <button class="d_get_started">Get Started  ></button>
+                </nobr>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <nobr>
+                <p >Questions? Call <u>000-800-919-1694</u></p>
+            </nobr>
+            <div class="bottom_details">
+                <div class="details">
+                    <p>FAQ</p>
+                    <p>Investor Relations</p>
+                    <p>Privacy</p>
+                    <p>Speed Test</p>
+                </div>
+                <div class="details">
+                    <p>Help Centre</p>
+                    <p>Jobs</p>
+                    <p>Cookie Preferences</p>
+                    <p>Legal Notices</p>
+                </div>
+                <div class="details">
+                    <p>Account</p>
+                    <p>Ways to Watch</p>
+                    <p>Corporate Information</p>
+                    <p>Only on Netflix</p>
+                </div>
+                <div class="details">
+                    <p>Media Centre</p>
+                    <p>Terms of Use</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+            <div class="drop">
+                <div class="dropdown">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <select name="language" id="langSelect" class="langDropdown">
+                        <option value="english" selected>English</option>
+                        <option value="hindi">Hindi</option>
+                    </select>
+                </div>
+            </div>
+            <div class="dsc">
+                Netflix India
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
